@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="180dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ru.be10ff.testactivity.MainActivity">
+
+    <ru.be10ff.cropajustimageview.CropAdjustImageView
+        android:id="@+id/imgPreview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:ratioHeight="6"
+        custom:ratioWidth="1"/>
+
+    <ru.be10ff.cropajustimageview.CropAdjustImageView
+        android:id="@+id/imgPreview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:ratioHeight="6"
+        custom:ratioWidth="2"/>
+
+    <ru.be10ff.cropajustimageview.CropAdjustImageView
+        android:id="@+id/imgPreview3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:ratioHeight="6"
+        custom:ratioWidth="3"/>
+
+    <ru.be10ff.cropajustimageview.CropAdjustImageView
+        android:id="@+id/imgPreview4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:ratioHeight="6"
+        custom:ratioWidth="9"/>
+
+    <ru.be10ff.cropajustimageview.CropAdjustImageView
+        android:id="@+id/imgPreview5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:ratioHeight="6"
+        custom:ratioWidth="6"/>
+
+    <ru.be10ff.cropajustimageview.CropAdjustImageView
+        android:id="@+id/imgPreview6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:ratioHeight="6"
+        custom:ratioWidth="2"/>
+
+</LinearLayout>
